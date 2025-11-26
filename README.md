@@ -17,11 +17,11 @@ Customer churn prediction using ANN - 2
 Churn = Yes (minority) < Churn = No (majority)<br>
 
 <p align="center">
-  <img src="report1.png" width="450">  
-  <img src="cm1.png" width="450">
+  <img src="report1.png" width="550">  
+  <img src="cm1.png" width="550">
 </p>
 
-📈 Good accuracy, but imbalance affects churn detection performance.<br><br>
+📈 Good accuracy, but imbalance affects churn detection performance.<br><br><br>
 
 
 🚀 ***Model 2 — ANN + SMOTE (Imbalanced Data Solved)*** <br>
@@ -37,8 +37,8 @@ Before       : 1869<br>
 After SMOTE  : 5163 (balanced)<br>
 
 <p align="center">
-  <img src="report2.png" width="450">  
-  <img src="cm2.png" width="450">
+  <img src="report2.png" width="550">  
+  <img src="cm2.png" width="550">
 </p>
 
 📈 Balanced recall between churn vs non-churn<br>
