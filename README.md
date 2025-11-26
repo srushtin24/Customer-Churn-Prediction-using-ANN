@@ -17,7 +17,8 @@ Customer churn prediction using ANN - 2
 📌 Dataset Nature → Imbalanced<br>
 Churn = Yes (minority) < Churn = No (majority)<br>
 
-![prediction result](bhp_website.png)<br>
+![report1](report1.png)<br>
+![cm1](cm1.png)<br>
 
 📈 Good accuracy, but imbalance affects churn detection performance.<br><br>
 
@@ -34,7 +35,8 @@ Churn = 1<br>
 Before       : 1869<br>
 After SMOTE  : 5163 (balanced)<br>
 
-![prediction result](bhp_website.png)<br>
+![report2](report2.png)<br>
+![cm2](cm2.png)<br>
 
 📈 Balanced recall between churn vs non-churn
 📈 Much better customer churn detection
